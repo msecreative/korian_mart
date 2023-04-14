@@ -83,7 +83,7 @@
 .hamburger-inner::after {
   width: 26px;
   height: 2px;
-  background-color: #fff;
+  background-color: #7C99C1;
   border-radius: 0;
   position: absolute;
   transition-property: transform;
@@ -6540,7 +6540,7 @@ a.social_bt.google:before {
   }
 }
 footer {
-  background-color: white;
+  background-color: #000;
   padding: 4px 0 2px 0;
 }
 @media (max-width: 767px) {
@@ -6570,11 +6570,11 @@ footer .contacts ul {
 footer .contacts ul li {
   position: relative;
   margin-bottom: 15px;
-  color: black;
+  color: #fff;
   opacity: 0.8;
 }
 footer .contacts ul li a {
-  color: black;
+  color: #fff;
   opacity: 1;
 }
 footer .contacts ul li a:hover {
@@ -6638,7 +6638,7 @@ footer .links ul li {
 }
 footer .links ul li a {
   position: relative;
-  color: black;
+  color: #fff;
   opacity: 0.8;
   display: inline-block;
 }
@@ -6648,7 +6648,7 @@ footer .links ul li a:hover {
   -ms-transform: translate(5px, 0);
   -o-transform: translate(5px, 0);
   transform: translate(5px, 0);
-  color: rgb(5, 5, 5);
+  color: #ddd;
   opacity: 1;
 }
 footer .links ul li a:hover:after {
@@ -7511,13 +7511,17 @@ img.mfp-img {
 .offer-image .offer-content {
   position: absolute;
   bottom: 0;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
   height: 100%;
   padding: 20px;
   border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* newsletter */
